@@ -8,14 +8,10 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'return',
-    redirectTo: 'suscripcion',
-    pathMatch: 'full'
-  },
-  {
     path: 'inicio',
     loadChildren: () => import('./pages/inicio/inicio.module').then( m => m.InicioPageModule)
   }
+
 
 ];
 
