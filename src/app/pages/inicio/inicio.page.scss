@@ -1,0 +1,8 @@
+.header{
+  background-image: url('../../../assets/header.png');
+  height: 300px;
+
+  ion-toolbar, ion-header{
+    --background: none;
+  }
+}
